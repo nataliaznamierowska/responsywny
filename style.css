@@ -253,8 +253,15 @@ a {
 
 /* Tablet */
 
-/* @media screen and (min-width: 769px) {
-} */
+@media screen and (min-width: 769px) {
+  .services-body {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+  }
+}
 /* Desktop */
 
 @media screen and (min-width: 1024px) {
