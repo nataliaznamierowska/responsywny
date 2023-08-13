@@ -145,7 +145,7 @@ body {
 .employee-text {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   justify-content: center;
   text-align: justify;
 }
@@ -265,10 +265,6 @@ a {
     flex-wrap: wrap;
     flex: 2;
     justify-content: center;
-    align-items: center;
-  }
-  .employee-title {
-    padding-top: 30px;
   }
 }
 
@@ -286,7 +282,7 @@ a {
     display: flex;
   }
   .main-menu li {
-    padding: 15px 0px;
+    padding: 14px 0px;
   }
   .menu_right_section a {
     padding-left: 30px;
@@ -294,7 +290,6 @@ a {
   .contact_link {
     cursor: not-allowed;
   }
-
   .first_screen {
     min-height: 100vh;
   }
@@ -312,12 +307,10 @@ a {
   .btn-text {
     transition: 1s;
   }
-
   .btn-text:hover {
     color: black;
     background-color: white;
   }
-
   .service-item:hover {
     transform: scale(1.05);
   }
@@ -332,22 +325,12 @@ a {
     align-items: center;
   }
   .employee-title {
-    font-size: 36px;
-    font-weight: var(--bold-font);
-    padding-top: 30px;
     text-align: left;
-    color: #152d41;
   }
 
   .employee-text {
     display: flex;
     flex-direction: column;
-  }
-
-  .bold-text {
-    font-weight: var(--bold-font);
-    line-height: 80px;
-    align-self: flex-start;
   }
 
   div.emp-container2 .employee-text {
@@ -359,7 +342,6 @@ a {
   }
 
   .employee-data {
-    display: flex;
     padding: 0px;
   }
   .employee-img emp1 {
@@ -373,13 +355,11 @@ a {
     min-width: 250px;
     min-height: 250px;
     margin: 0px 40px 0px 0px;
-    border-radius: 50%;
   }
   .employee-img.emp2 {
     margin: 0px 0px 0px 40px;
   }
   .service-title {
-    padding: 30px 0px;
     font-size: 36px;
   }
 
