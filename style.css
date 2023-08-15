@@ -153,6 +153,7 @@ body {
   font-weight: var(--bold-font);
   line-height: 80px;
   align-self: flex-start;
+  
 }
 .emp1 {
   background-image: url(img-small/pracownik-1.png);
@@ -182,6 +183,7 @@ body {
   font-size: 26px;
   font-weight: var(--bold-font);
   color: var(--color-white);
+ text-align: left;
 }
 
 .service-item {
@@ -202,7 +204,7 @@ body {
   position: relative;
 }
 .bold-text {
-  align-self: center;
+  align-self: left;
 }
 
 .new-text {
@@ -340,7 +342,6 @@ a {
   div.emp-container2 .bold-text {
     align-self: flex-end;
   }
-
   .employee-data {
     padding: 0px;
   }
