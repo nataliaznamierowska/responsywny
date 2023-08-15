@@ -38,7 +38,7 @@ body {
   display: flex;
 }
 .main-menu li {
-  padding: 14px 30px;
+  padding: 15px 30px;
   color: #fff;
 }
 .main-menu li a {
@@ -107,7 +107,7 @@ body {
 
 .btn-text {
   transition: 1s;
-  padding: 14px 60px;
+  padding: 15px 60px;
   background: none;
   font-family: var(--bold-font);
   color: var(--color-white);
@@ -133,7 +133,7 @@ body {
 .employee_container {
   width: 100%;
   margin: 0 auto;
-  padding: 14px;
+  padding: 15px;
 }
 
 .employee-img {
@@ -153,7 +153,6 @@ body {
   font-weight: var(--bold-font);
   line-height: 80px;
   align-self: flex-start;
-  
 }
 .emp1 {
   background-image: url(img-small/pracownik-1.png);
@@ -183,7 +182,7 @@ body {
   font-size: 26px;
   font-weight: var(--bold-font);
   color: var(--color-white);
- text-align: left;
+  text-align: center;
 }
 
 .service-item {
@@ -232,11 +231,8 @@ footer {
 
 .footer_container {
   width: 100%;
-
   text-align: center;
   padding: 15px 30px;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .footer__copyright {
@@ -268,6 +264,10 @@ a {
     flex: 2;
     justify-content: center;
   }
+  .service-title {
+    text-align: center;
+    font-size: 36px;
+  }
 }
 
 /* Desktop */
@@ -284,7 +284,7 @@ a {
     display: flex;
   }
   .main-menu li {
-    padding: 14px 0px;
+    padding: 15px 0px;
   }
   .menu_right_section a {
     padding-left: 30px;
@@ -295,6 +295,7 @@ a {
   .first_screen {
     min-height: 100vh;
   }
+
   .banner_container {
     width: 960px;
     flex-direction: column;
@@ -360,9 +361,6 @@ a {
   .employee-img.emp2 {
     margin: 0px 0px 0px 40px;
   }
-  .service-title {
-    font-size: 36px;
-  }
 
   .services-wrapper {
     width: 960px;
@@ -379,7 +377,9 @@ a {
   .service-item {
     transition: 0.5s;
   }
-
+  .service-title {
+    text-align: left;
+  }
   .footer_container {
     width: 960px;
     margin: 0 auto;
