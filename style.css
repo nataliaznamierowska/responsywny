@@ -134,7 +134,7 @@ body {
 .employee_container {
   width: 100%;
   margin: 0 auto;
-  padding: 15px;
+  padding: 30px;
 }
 
 .employee-img {
@@ -358,14 +358,10 @@ a {
 
   .services-wrapper {
     width: 960px;
-    padding: 30px;
   }
 
   .services-body {
-    display: flex;
-    flex-wrap: wrap;
     flex: 3;
-    justify-content: center;
     padding: 30px 0px;
   }
   .service-item {
